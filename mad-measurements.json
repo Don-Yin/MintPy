@@ -1,0 +1,62 @@
+{
+  "before_commit": "cc441486e3ca68212dec5deb5b0adf29abaa04f7",
+  "after_commit": "c34d7717deb64f1df72248ae17f0e25b8809fcc1",
+  "center": [
+    1,
+    11
+  ],
+  "scale": 1,
+  "cases": {
+    "rectangular": {
+      "input": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          10,
+          11,
+          12
+        ]
+      ],
+      "expected": [
+        1,
+        1
+      ],
+      "before": null,
+      "before_error": "operands could not be broadcast together with shapes (2,3) (2,) ",
+      "after": [
+        1,
+        1
+      ],
+      "after_error": null
+    },
+    "square": {
+      "input": [
+        [
+          0,
+          2
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "expected": [
+        1,
+        1
+      ],
+      "before": [
+        5,
+        5
+      ],
+      "before_error": null,
+      "after": [
+        1,
+        1
+      ],
+      "after_error": null
+    }
+  }
+}
